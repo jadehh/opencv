@@ -7,7 +7,7 @@ ocv_download(FILENAME ${ade_filename}
              URL
                "${OPENCV_ADE_URL}"
                "$ENV{OPENCV_ADE_URL}"
-               "https://github.com/opencv/ade/archive/"
+               "https://gh.con.sh/https://github.com/opencv/ade/archive/"
              DESTINATION_DIR ${ade_src_dir}
              ID ADE
              STATUS res
