@@ -195,7 +195,7 @@ public:
         }
 
         if (!icvWriteFrame_FFMPEG_p(ffmpegWriter, (const uchar*)image.getMat().ptr(), (int)image.step(), image.cols(), image.rows(), image.channels(), 0))
-            CV_LOG_WARNING(NULL, "FFmpeg: Failed to write frame");
+            CV_LOG_WARNING(NULL, "JADE FFmpeg: Failed to write frame");
     }
     virtual bool open( const cv::String& filename, int fourcc, double fps, cv::Size frameSize, const VideoWriterParameters& params )
     {
